@@ -1,7 +1,7 @@
 :root {
-    --light-grey: #f5f6f7;
+    --light-grey: #344c5c;
     --dark-blue: #344c5c;
-    --fcc-blue: #1b1b32;
+    --fcc-beige: #cac49f;
     --light-yellow: #fad47c;
     --dark-yellow: #f4a73b;
     --light-pink: #ffadad;
@@ -12,7 +12,7 @@
   body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: var(--fcc-blue);
+    background-color: var(--fcc-beige);
     color: var(--light-grey);
   }
   
