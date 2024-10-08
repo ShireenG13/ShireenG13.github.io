@@ -235,23 +235,22 @@
   
   
   @media only screen and (max-width:620px){
-
+  
   
     #welcome-section h2{
-      padding-right: 6%;
-      padding-left: 6%;
+      padding-right: 4%;
+      padding-left: 4%;
       width: 100%;
       justify-content: center;
       align-items: center;
       text-align: center;
+    
     }
     #city {
       font-size: 18px;
-      padding-left: 2px;
       padding-right: 2px;
       color: white;
       font-family: Poppins, sans-serif;
-      padding-right : 2px;
 
     }
 
@@ -266,7 +265,7 @@
     }
 
     #welcome-section{
-      padding-top: 80px;
+      padding-top: 230px;
     }
 
     #welcome-section h1 {
