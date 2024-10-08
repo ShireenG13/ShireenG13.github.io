@@ -239,23 +239,26 @@
   
   
   
-  @media only screen and (max-width:620px){
+  @media only screen and (max-width:619px){
 
     
 
-    #h2mobile1 {
-      font-size: 20px;
+
+
+
+    #city {
+      font-size: 18px;
       padding-left: 2px;
       padding-right: 2px;
-      width: 100%;
-
+      color: #e63946;
     }
 
-    #h2mobile2 {
-      font-size: 20px;
+    #email{
+      font-size: 18px;
       padding-left: 2px;
       padding-right: 2px;
-      width: 100%;
+      
+      color: white;
 
     }
 
@@ -374,6 +377,8 @@
   }
   
   @media only screen and (max-width:620px){
+
+    
   
     .social-icons{
     
