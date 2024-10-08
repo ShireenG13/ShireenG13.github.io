@@ -44,12 +44,7 @@
       padding: 3px;
       margin-bottom: 0; 
     }
-    #h2mobile1{
-      display:none;
-    }
-    #h2mobile2{
-      display: none;
-    }
+    
     #navbar>ul{
       list-style-type: none;
       text-decoration: none;
@@ -104,10 +99,10 @@
   
   }
   
-#shireen {
+/*#shireen {
   color:#e63946;
   padding-right: 20px;
-}
+}*/
 
   #welcome-section h1{
     width: 100%;
@@ -129,7 +124,7 @@
     
   }
   
-  #welcome-section #laptoph2{
+  #welcome-section h2{
     width: 100%;
     margin-top: 0;
     padding-top: 0%;
@@ -138,11 +133,11 @@
     padding-bottom: 3%;
     margin-bottom: 0;
     background-color: #023047;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color:white;
+    display: flex;
     font-family:Poppins,sans-serif;
     font-size: 30px;
     font-style: italic;
@@ -157,6 +152,7 @@
     font-style: italic;
     font-weight: 400;
     padding-left:10px;
+    font-family:Poppins,sans-serif;
 
   }
 
@@ -239,18 +235,17 @@
   
   
   
-  @media only screen and (max-width:619px){
+  @media only screen and (max-width:620px){
 
-    
-
-
-
+  
 
     #city {
       font-size: 18px;
       padding-left: 2px;
       padding-right: 2px;
       color: #e63946;
+      font-family: Poppins, sans-serif;
+
     }
 
     #email{
@@ -259,6 +254,7 @@
       padding-right: 2px;
       
       color: white;
+      font-family: Poppins, sans-serif;
 
     }
 
