@@ -44,7 +44,12 @@
       padding: 3px;
       margin-bottom: 0; 
     }
-  
+    #h2mobile1{
+      display:none;
+    }
+    #h2mobile2{
+      display: none;
+    }
     #navbar>ul{
       list-style-type: none;
       text-decoration: none;
@@ -124,7 +129,7 @@
     
   }
   
-  #welcome-section h2{
+  #welcome-section #laptoph2{
     width: 100%;
     margin-top: 0;
     padding-top: 0%;
@@ -238,11 +243,22 @@
 
     
 
-    #email {
-      font-size: 16px;
+    #h2mobile1 {
+      font-size: 20px;
       padding-left: 2px;
+      padding-right: 2px;
+      width: 100%;
 
     }
+
+    #h2mobile2 {
+      font-size: 20px;
+      padding-left: 2px;
+      padding-right: 2px;
+      width: 100%;
+
+    }
+
     #welcome-section{
       padding-top: 80px;
     }
@@ -253,10 +269,7 @@
       font-size: 50px;
       width: 100%;
     }
-    #city {
-      font-size: 16px;
-      padding-right: 2px;
-    }
+   
 
     #welcome-section p {
       padding-top: 30px;
