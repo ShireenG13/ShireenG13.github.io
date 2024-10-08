@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
   }
@@ -18,15 +20,14 @@
     background-color: fb8500;
     font-family: Poppins,sans-serif;
     font-size: 22px;
-  margin-bottom: 0px;
-  position: fixed;
+    margin-bottom: 0px;
+    position: fixed;
   }
   
   #navbar>ul>li a{
     text-decoration: none;
     color: black;
-    font-weight: 550;
-   
+    font-weight: 550; 
   }
   
   @media screen and (min-width:620px) and (max-width:1300px){
