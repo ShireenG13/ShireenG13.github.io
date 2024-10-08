@@ -240,6 +240,9 @@
 
     #email {
       font-size: 18px;
+      width: 100%;
+      padding-left: 2px;
+
     }
     #welcome-section{
       padding-top: 80px;
@@ -251,10 +254,10 @@
       font-size: 40px;
       width: 100%;
     }
-    #welcome-section h2 {
+    #city {
+      width: 100%;
       font-size: 18px;
-      padding-bottom: 5%;
-      
+      padding-right: 0px;
     }
 
     #welcome-section p {
