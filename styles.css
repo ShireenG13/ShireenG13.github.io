@@ -22,6 +22,7 @@
     font-family: Poppins,sans-serif;
     font-size: 22px;
     margin-bottom: 0px;
+    position: fixed;
     
   }
 
@@ -35,7 +36,6 @@
     text-decoration: none;
     color: black;
     font-weight: 550; 
-    text-align: right;
   }
   
   @media screen and (min-width:620px) and (max-width:1300px){
