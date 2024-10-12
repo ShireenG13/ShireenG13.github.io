@@ -25,17 +25,24 @@
     
   }
 
+  #navbar>ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }
+
   #navbar>ul>li a{
     text-decoration: none;
     color: black;
     font-weight: 550; 
+    text-align: right;
   }
   
   @media screen and (min-width:620px) and (max-width:1300px){
     #navbar{
       width: 100%;
       text-align: right;
-      padding: 3px;
+
       margin-bottom: 0; 
     }
     
