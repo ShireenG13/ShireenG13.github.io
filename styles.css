@@ -30,33 +30,40 @@
     text-decoration: none;
     color: black;
     font-weight: 550; 
+  
   }
 
   #navbar>ul {
     list-style-type: none;
     text-decoration: none;
     color: black;
+  
   }
 
   
-  @media screen and (min-width:620px) and (max-width:1400px){
+  @media screen and (min-width:620px) and (max-width:1300px){
     #navbar{
       width: 100%;
+      flex-wrap:nowrap;
       text-align: right;
+      align-items: right;
       padding: 3px;
       margin-bottom: 0; 
+      position: fixed;
+    
     }
     
     #navbar>ul{
       list-style-type: none;
       text-decoration: none;
       color: black;
+    
     }
   
     #navbar>ul li{
       display: inline;
       padding: 15px;
-      margin: 10px; 
+      margin: 10px;
       text-decoration: none;
       color: black;
   
@@ -236,7 +243,7 @@
   
   
   
-  @media only screen and (max-width:620px){
+  @media only screen and (max-width:629px){
   
   
     #welcome-section h2{
