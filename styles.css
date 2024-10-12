@@ -17,6 +17,7 @@
   }
   
   #navbar{
+    width: 100%;
     background-color: #FEF2F2;
     font-family: Poppins,sans-serif;
     font-size: 22px;
@@ -24,10 +25,6 @@
     position: fixed;
   }
 
-
-  #log {
-    max-height: 80px;
-  }
   #navbar>ul>li a{
     text-decoration: none;
     color: black;
@@ -58,7 +55,7 @@
     }
   }
   
-  @media only screen and (max-width:619px){
+  @media only screen and (max-width:620px){
     #navbar{
       width: 100%;
       text-align: center;
